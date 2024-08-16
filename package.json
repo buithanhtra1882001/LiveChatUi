@@ -1,0 +1,37 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.25.0",
+    "@chatui/core": "^2.4.2",
+    "emoji-picker-react": "^4.11.1",
+    "event-emitter": "^0.3.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icon": "^1.0.0",
+    "react-router-dom": "^6.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/event-emitter": "^0.3.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^2.1.0",
+    "less": "^4.2.0",
+    "rollup": "^4.20.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.3"
+  }
+}

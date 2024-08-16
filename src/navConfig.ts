@@ -1,0 +1,86 @@
+export const navConfig = [
+  {
+    title: "Thành phần Đối thoại",
+    list: [
+      { name: "Khung Đối thoại", code: "chat" },
+      { name: "Bong bóng", code: "bubble" },
+      { name: "Thẻ", code: "card" },
+      { name: "Thẻ Tệp tin", code: "file-card" },
+      { name: "Trạng thái Tin nhắn", code: "message-status" },
+      { name: "Tin nhắn Hệ thống", code: "system-message" },
+      { name: "Đang nhập", code: "typing" },
+    ],
+  },
+  {
+    title: "Thành phần Cơ bản",
+    list: [
+      { name: "Nút", code: "button" },
+      { name: "Bố cục", code: "flex" },
+      { name: "Biểu tượng", code: "icon" },
+      { name: "Hình ảnh", code: "image" },
+    ],
+  },
+  {
+    title: "Thành phần Biểu mẫu",
+    list: [
+      { name: "Hộp kiểm", code: "checkbox" },
+      { name: "Biểu mẫu", code: "form" },
+      { name: "Nút chọn", code: "radio" },
+      { name: "Thích và Không thích", code: "rate-actions" },
+      { name: "Ô nhập liệu", code: "input" },
+      { name: "Ô tìm kiếm", code: "search" },
+      { name: "Bộ chọn", code: "select" },
+    ],
+  },
+  {
+    title: "Thành phần Hiển thị",
+    list: [
+      { name: "Ảnh đại diện", code: "avatar" },
+      { name: "Trình chiếu Hình ảnh", code: "carousel" },
+      { name: "Đường phân cách", code: "divider" },
+      { name: "Trạng thái Trống", code: "empty" },
+      { name: "Danh sách", code: "list" },
+      { name: "Thanh điều hướng", code: "navbar" },
+      { name: "Thông báo", code: "notice" },
+      { name: "Thanh tiến trình", code: "progress" },
+      { name: "Văn bản phong phú", code: "rich-text" },
+      { name: "Khung cuộn", code: "scroll-view" },
+      { name: "Thanh bước", code: "stepper" },
+      { name: "Tab", code: "tabs" },
+      { name: "Nhãn", code: "tag" },
+      { name: "Văn bản", code: "text" },
+      { name: "Thời gian", code: "time" },
+      { name: "Video", code: "video" },
+      { name: "Đối tượng Truyền thông (bỏ)", code: "media-object" },
+    ],
+  },
+  {
+    title: "Thành phần Phản hồi",
+    list: [
+      { name: "Cuộn vô hạn", code: "infinite-scroll" },
+      { name: "Đang tải", code: "Loading" },
+      { name: "Hộp xác nhận", code: "confirm" },
+      { name: "Hộp thoại", code: "modal" },
+      { name: "Cửa sổ bật lên", code: "popup" },
+      { name: "Làm mới bằng cách kéo xuống", code: "pull-to-refresh" },
+      { name: "Màn hình khung", code: "skeleton" },
+      { name: "Thông báo nhẹ", code: "toast" },
+    ],
+  },
+  {
+    title: "Thành phần Kinh doanh",
+    list: [
+      { name: "Thẻ Sản phẩm", code: "goods" },
+      { name: "Giá cả", code: "price" },
+    ],
+  },
+  {
+    title: "Thành phần Khác",
+    list: [
+      { name: "Bộ nạp Thành phần", code: "component-provider" },
+      { name: "Biên giới lỗi", code: "error-boundary" },
+      { name: "Cổng", code: "portal" },
+      { name: "Ẩn thị giác", code: "visually-hidden" },
+    ],
+  },
+];
